@@ -46,13 +46,11 @@ The model was evaluated using the One-vs-Rest (OvR) approach for ROC-AUC to meas
 
 #### AUC Performance
 
-Class	AUC Score
-
-no (No Substructure)	0.9907
-
-sphere (Subhalo)	0.9819
-
-vort (Vortex)	0.9887
+| Class | AUC Score |
+| :--- | :--- |
+| **no** (No Substructure) | 0.9907 |
+| **sphere** (Subhalo) | 0.9819 |
+| **vort** (Vortex) | 0.9887 |
 
 #### Confusion Matrix Insights (Test Set)
 
