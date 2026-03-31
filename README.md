@@ -6,12 +6,10 @@ This repository contains my solutions for the Google Summer of Code 2026 evaluat
 
 The repository is organized into two primary modules, each containing its own specialized data pipeline, model weights, and performance reports.
 
-Directory	Task	Model(s) Used	Key Metrics
-
-Common\_Test\_I/	Multi-Class Substructure Classification	ResNet-18	Avg. AUC > 0.98
-
-Specific\_Test\_V/	Binary Lens Finding \& Data Pipelines	EfficientNet-B0, ResNet-18	Test AUC: 0.9816
-
+| Directory | Task | Model(s) Used | Key Metrics |
+| :--- | :--- | :--- | :--- |
+| `Common_Test_I/` | Multi-Class Substructure Classification | ResNet-18 | Avg. AUC > 0.98 |
+| `Specific_Test_V/` | Binary Lens Finding & Data Pipelines | EfficientNet-B0, ResNet-18 | Test AUC: 0.9816 |
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### 🚀 Task Summaries
