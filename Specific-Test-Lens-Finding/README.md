@@ -44,11 +44,10 @@ The models were evaluated using ROC-AUC and targeted metric checks at FPR ≈ 0.
 
 #### Comparative Performance (Test Set)
 
-Model	Test AUC	TPR (at FPR ≈ 0.01)	Precision	False Positives
-
-EfficientNet-B0	0.9816	75.90% (148/195)	49.50%	151
-
-ResNet-18	0.9724	74.87% (146/195)	39.67%	222
+| Model | Test AUC | TPR (at FPR ≈ 0.01) | Precision | False Positives |
+| :--- | :--- | :--- | :--- | :--- |
+| **EfficientNet-B0** | **0.9816** | **75.90%** (148/195) | **49.50%** | **151** |
+| ResNet-18 | 0.9724 | 74.87% (146/195) | 39.67% | 222 |
 
 
 
