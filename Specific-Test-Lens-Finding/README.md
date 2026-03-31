@@ -26,7 +26,7 @@ To handle the (3, 64, 64) input and the class imbalance, the following strategy 
 
 •	**Data Augmentation**: To improve generalization and compensate for the limited number of "Lens" samples, random horizontal/vertical flips and rotations were applied during training.
 
-•	**Handling Imbalance**: To address the class skew, I implemented a dual-pronged strategy: using a WeightedRandomSampler for balanced batch distribution and a pos\_weight ((calculated as $(n_{neg}/n_{pos})$)) within BCEWithLogitsLoss. This combination ensures the model avoids a trivial majority-class solution and remains highly sensitive to the rare 'Lens' samples, as evidenced by the high recall in the test confusion matrix.
+•	**Handling Imbalance**: To address the class skew, I implemented a dual-pronged strategy: using a WeightedRandomSampler for balanced batch distribution and a pos\_weight (calculated as <i>n</i><sub>neg</sub>/<i>n</i><sub>pos</sub>) within BCEWithLogitsLoss. This combination ensures the model avoids a trivial majority-class solution and remains highly sensitive to the rare 'Lens' samples, as evidenced by the high recall in the test confusion matrix.
 
 #### 2\. Model Architectures
 
