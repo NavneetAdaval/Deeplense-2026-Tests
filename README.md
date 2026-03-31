@@ -10,7 +10,6 @@ The repository is organized into two primary modules, each containing its own sp
 | :--- | :--- | :--- | :--- |
 | `Common_Test_I/` | Multi-Class Substructure Classification | ResNet-18 | Avg. AUC > 0.98 |
 | `Specific_Test_V/` | Binary Lens Finding & Data Pipelines | EfficientNet-B0, ResNet-18 | Test AUC: 0.9816 |
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### 🚀 Task Summaries
 
