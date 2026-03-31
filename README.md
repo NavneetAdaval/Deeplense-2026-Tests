@@ -17,19 +17,19 @@ The repository is organized into two primary modules, each containing its own sp
 
 Objective: Classify lensing images into three categories: No Substructure (no), Subhalo (sphere), and Vortex (vort).
 
-•	Architecture: ResNet-18.
+•	**Architecture**: ResNet-18.
 
-•	Result: Achieved 100% accuracy on the "no substructure" class and high discriminatory power for complex morphologies (AUC ≈ 0.99).
+•	**Result**: Achieved 100% accuracy on the "no substructure" class and high discriminatory power for complex morphologies (AUC ≈ 0.99).
 
-•	Focus: Precision in distinguishing subtle differences between dark matter substructures.
+•	**Focus**: Precision in distinguishing subtle differences between dark matter substructures.
 
 #### 2\. Specific Test V: Gravitational Lens Finding
 
-Objective: Identify the presence of a strong gravitational lens in a highly imbalanced dataset.
+**Objective**: Identify the presence of a strong gravitational lens in a highly imbalanced dataset.
 
-•	Architecture: Comparative analysis between EfficientNet-B0 and ResNet-18.
+•	**Architecture**: Comparative analysis between EfficientNet-B0 and ResNet-18.
 
-•	Imbalance Strategy: Dual-pronged approach using WeightedRandomSampler for batch distribution and pos\_weight within the loss function.
+•	**Imbalance Strategy**: Dual-pronged approach using WeightedRandomSampler for batch distribution and pos\_weight within the loss function.
 
-•	Evaluation: Optimized for the low-False Positive regime (FPR ≈ 0.01) to suit real-world astronomical survey requirements.
+•	**Evaluation**: Optimized for the low-False Positive regime (FPR ≈ 0.01) to suit real-world astronomical survey requirements.
 
